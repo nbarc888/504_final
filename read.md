@@ -12,7 +12,7 @@ Use case: Remote Neurologist service for Emergency Stroke Consultation
 ### Diagram
 
 
-![colored diagram](images\dataflow_structure_color.png)
+![colored diagram](images/dataflow_structure_color.png)
 
 
 created using ClipStudio Paint Pro 
