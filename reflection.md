@@ -4,6 +4,7 @@ The areas of the design that I have a high confidence in are flask app utility a
 
 ### 2. At least one alternative architecture you considered and why you did not choose it. 
 One alternative architecture that was considered is as follows as below:
+
 ![Alternate structure](images/alt_structure.PNG)
 
 Primary differences include no transcription service and no docker container. Reasons why this was modified is as follows: 
