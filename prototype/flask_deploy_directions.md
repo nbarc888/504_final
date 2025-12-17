@@ -8,6 +8,10 @@ Primary methodology is to use flask app to display an image from a GCP bucket wh
 |combo.py|Combined text with image| Confirmed works in terminal |
 |image.py|image only that connects with GCP bucket Public link| CONFIRMED |  
 
+![image](images/Confirmed_image_py.PNG)
+![successful flask launch](images/Confirmed_image_combo_py.PNG)
+![]()
+
 
 
 Log into Azure 
