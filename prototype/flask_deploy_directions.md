@@ -51,7 +51,7 @@ In the Permissions section, click the Grant access button.
 In the "New principals" field, type allUsers . This principal represents anyone on the internet.
 In the "Select a role" dropdown, search for and select Storage Object Viewer . This role grants read-only access to objects.
 
-Click Save .
+Click Save.
 
 A confirmation dialog will appear. Click Allow public access .
 
@@ -64,7 +64,7 @@ Click the Copy URL button to get the public URL for your JPG file.
 
 
 
-GCP DIrections : 
+GCP Directions: 
 Insert following codes
 ```bash
 sudo apt update 
