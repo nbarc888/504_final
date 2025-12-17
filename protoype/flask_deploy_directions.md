@@ -16,7 +16,7 @@ Allow Selected port: SHH (22)
 ----------------
 For GCP 
 Machine and size: E2-small 
-
+US-east4 - Northern Virginia
 
 
 GCP DIrections : 
@@ -37,23 +37,23 @@ git clone https://github.com/nbarc888/504_final.git
 ls -l
 ```
 ```bash
-cd #filename/
-## include the /
+cd 504_final/
+
 ```
 ```bash
 ls -l
 ```
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 ```bash
 source venv/bin/activate
 ```
 ```bash
-pip install -r requirements.txt
+pip install -r protoype/requirements.txt
 ```
 ```bash
-python flaskapp_protoype/prototype.py
+python protoype/app.py
 ```
 
 
@@ -77,5 +77,5 @@ py -m venv .venv
 pip install -r requirements.txt
 ```
 ```bash
-flask run
+flask run prototype/app.py
 ```
