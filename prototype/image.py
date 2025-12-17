@@ -3,7 +3,7 @@ from flask import Flask, render_template_string
 app = Flask(__name__)
 
 # GCP bucket image URL
-IMAGE_URL = "https://storage.cloud.google.com/instance-dog-279783831978/ct-scan-of-ischemic-stroke.jpg"
+IMAGE_URL = "https://storage.googleapis.com/instance-dog-279783831978/ct-scan-of-ischemic-stroke.jpg"
 
 # HTML template
 HTML_TEMPLATE = """
