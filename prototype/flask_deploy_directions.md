@@ -6,7 +6,7 @@ Primary methodology is to use flask app to display an image from a GCP bucket wh
 |---|---|---|
 |app.py|Base text output via flask| CONFIRMED WORKS VIA TERMINAL |
 |authimage.py|Combined text with image| Ongoing |
-|image.py|image only that connects with GCP bucket Public link|ongoing|  
+|image.py|image only that connects with GCP bucket Public link| CONFIRMED |  
 
 
 

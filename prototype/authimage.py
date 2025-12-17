@@ -5,8 +5,9 @@ import os
 app = Flask(__name__)
 
 # GCP bucket image URL
-IMAGE_URL = "https://storage.cloud.google.com/instance-dog-279783831978/ct-scan-of-ischemic-stroke.jpg"
-LOCAL_IMAGE_PATH = "ct-scan.jpg"
+IMAGE_URL = "https://storage.googleapis.com/instance-dog-279783831978/ct-scan-of-ischemic-stroke.jpg"
+LOCAL_IMAGE_PATH = "ct-scan-of-ischemic-stroke.jpg"
+
 
 # HTML template
 HTML_TEMPLATE = """
