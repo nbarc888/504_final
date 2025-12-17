@@ -1,3 +1,7 @@
+At this Current time(12/17/25 2pm EST): Code is non-functional due to issues with deploying flask app 
+Primary methodology is to use flask app to display an image from a GCP bucket which can bee seen in '504_final_opt.ipynb' which is a notebook that can connect to both the VM and the google bucket. 
+
+
 Log into Azure 
 
 Create Virtual Machine with Following items:
