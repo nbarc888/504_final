@@ -9,6 +9,7 @@ Across many hospitals within the United States, many facilities have been implem
 Data Stored:
 
 Cloud Storage: DICOM images, JPEG images, text documents (Medical notes, radiology imaging, and other Unstructured Data)
+
 Cloud Database: SQL, CSV (Vitals, lab values, and other Structured Data)
 
 Neurologists on call would need remote access to patient data. Data involved includes imaging files from the CT such as Digital Imaging and Communications in Medicine (DICOM) file or JPEG file, medical note reports, vitals and labwork. These would typically be found within the patient’s electronic medical record which involves JSON format. Hardware requirements are minimal with the base requirements of a HIPAA-compliant tablet or smart phone for connection to the telehealth provider. For the telehealth provider, hardware requirements are increased because the provider must have a computer that is able to simultaneously run a live-web call to the site and directly connect and upload orders to the patient’s records. This would require access to SQL server and cloud service. For EMR storage and access, the service would have to be hosted on a cloud service with both a storage and database. 
