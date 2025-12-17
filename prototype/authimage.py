@@ -1,7 +1,6 @@
 from flask import Flask, render_template_string, send_file
 import requests
 import os
-from io import BytesIO
 
 app = Flask(__name__)
 
