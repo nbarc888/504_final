@@ -14,6 +14,10 @@ password: German$hepherd
 Allow Selected port: SHH (22)
 
 ----------------
+
+### Due to Price variability between both Azure and GCP, GCP was selected to run prototype. 
+
+
 For GCP VM instance
 Machine and size: E2-small 
 US-east4 - Northern Virginia
@@ -63,10 +67,12 @@ ls -l
 ```
 ```bash
 cd 504_final/
-
 ```
 ```bash
 ls -l
+```
+```bash
+cd prototype/
 ```
 ```bash
 python3 -m venv venv
@@ -75,10 +81,10 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 ```bash
-pip install -r protoype/requirements.txt
+pip install -r requirements.txt
 ```
 ```bash
-python protoype/app.py
+python app.py
 ```
 
 
