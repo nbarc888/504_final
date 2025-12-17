@@ -27,8 +27,34 @@ Machine and size: E2-small
 US-east4 - Northern Virginia
 ### connect access to all cloud APIs
 
-For GCP VM Bucket
+#### For GCP VM Bucket
 name: instance-dog-279783831978
+
+##### Navigate to your bucket:
+
+In the Google Cloud Console, go to Cloud Storage and then to the Buckets page.
+Click on the name of the bucket that contains your JPG file (e.g., instance-dog-279783831978 ).
+
+Access Permissions:
+Once inside the bucket, click on the Permissions tab.
+
+Grant Public Access:
+In the Permissions section, click the Grant access button.
+In the "New principals" field, type allUsers . This principal represents anyone on the internet.
+In the "Select a role" dropdown, search for and select Storage Object Viewer . This role grants read-only access to objects.
+
+Click Save .
+
+A confirmation dialog will appear. Click Allow public access .
+
+Verify and Get the Public URL:
+Go back to the Objects tab within your bucket.
+
+You should now see a "Public access" column for your objects. The JPG file you want to share should indicate "Public to internet" and have a Copy URL button next to it.
+Click the Copy URL button to get the public URL for your JPG file.
+
+
+
 
 GCP DIrections : 
 Insert following codes
@@ -90,6 +116,10 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+
+
+
+
 
 
 Azure directions
