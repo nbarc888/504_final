@@ -14,10 +14,13 @@ password: German$hepherd
 Allow Selected port: SHH (22)
 
 ----------------
-For GCP 
+For GCP VM instance
 Machine and size: E2-small 
 US-east4 - Northern Virginia
+### connect access to all cloud APIs
 
+For GCP VM Bucket
+name: instance-dog-279783831978
 
 GCP DIrections : 
 Insert following codes
@@ -30,6 +33,28 @@ sudo apt install python3 python3-pip python3-venv
 ```bash
 sudo apt install git
 ```
+### Bucket-Connect options
+```bash
+### to connect to bucket 
+sudo apt install git
+```
+```bash
+export GCSFUSE_REPO=gcsfuse-`lsb_release -c -s`
+echo "deb http://packages.cloud.google.com/apt $GCSFUSE_REPO main" | sudo tee /etc/apt/sources.list.d/gcsfuse.list
+```
+```bash
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+```
+```bash
+sudo apt-get update
+sudo apt-get install gcsfuse
+```
+```bash
+gcsfuse -v
+```
+
+####
+
 ```bash
 git clone https://github.com/nbarc888/504_final.git
 ```
