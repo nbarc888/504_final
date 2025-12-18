@@ -8,9 +8,9 @@ Primary methodology is to use flask app to display an image from a GCP bucket wh
 |combo.py|Combined text with image| Confirmed works in terminal |
 |image.py|image only that connects with GCP bucket Public link| CONFIRMED |  
 
-![image](prototype/confirmimages/combo.png)
+![image](../images/combo.png)
 
-![successful flask launch](prototype/confirmimages/image.png)
+![successful flask launch](../images/image.png)
 
 
 
