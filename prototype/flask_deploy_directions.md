@@ -1,4 +1,6 @@
-At this Current time(12/17/25 5pm EST): Code is non-functional due to issues with deploying flask app 
+At this Current time(12/17/25 8pm EST): GCP VM is non-functional due to issues with deploying flask app 
+
+However when running the Python Script in VS Code Terminal, code is functional and able to launch flash app and connect to Bucket. 
 
 Primary methodology is to use flask app to display an image from a GCP bucket which can bee seen in '504_final_opt.ipynb' which is a notebook that can connect to both the VM and the google bucket. 
 
@@ -69,7 +71,7 @@ Click the Copy URL button to get the public URL for your JPG file.
 
 
 
-GCP Directions: 
+### SHH = GCP Directions: 
 Insert following codes
 ```bash
 sudo apt update 
@@ -80,28 +82,6 @@ sudo apt install python3 python3-pip python3-venv
 ```bash
 sudo apt install git
 ```
-### Bucket-Connect options
-```bash
-### to connect to bucket 
-sudo apt install git
-```
-```bash
-export GCSFUSE_REPO=gcsfuse-`lsb_release -c -s`
-echo "deb http://packages.cloud.google.com/apt $GCSFUSE_REPO main" | sudo tee /etc/apt/sources.list.d/gcsfuse.list
-```
-```bash
-curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
-```
-```bash
-sudo apt-get update
-sudo apt-get install gcsfuse
-```
-```bash
-gcsfuse -v
-```
-
-####
-
 ```bash
 git clone https://github.com/nbarc888/504_final.git
 ```
@@ -127,13 +107,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ```bash
-python app.py
+python ### any pythonscripts
 ```
-
-
-
-
-
 
 Azure directions
 
