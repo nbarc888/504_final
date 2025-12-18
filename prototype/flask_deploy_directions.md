@@ -1,4 +1,4 @@
-At this Current time(12/17/25 8pm EST): GCP VM is non-functional due to issues with deploying flask app 
+At this Current time(12/17/25 8:30pm EST): GCP VM is now functional with deploying flask app 
 
 However when running the Python Script in VS Code Terminal, code is functional and able to launch flash app and connect to Bucket. 
 
@@ -14,7 +14,7 @@ Primary methodology is to use flask app to display an image from a GCP bucket wh
 
 ![successful flask launch](../images/image.png)
 
-
+![vm successful flask connection](../images/vm_confirm.PNG)
 
 
 Log into Azure 
